@@ -1,5 +1,4 @@
 body {
-background: #05799a;
 padding: 40px 40px 40px 40px;
 font-family: "Montserrat", sans-serif;
 }
@@ -22,7 +21,8 @@ ul, ol{
 }
 /* Sidebare */
 .sidebar{
-    background: #e0ebfe;
+    /* background: #e0ebfe; */
+    background: #161D2A;
     padding-top: 40px;
     padding-bottom: 40px;
     box-sizing: border-box;
@@ -37,7 +37,7 @@ ul, ol{
     
 }
 .contacts-title{
-    color: #161D2A;
+    color: #fff;
     font-size: 22px;
     font-weight: 700;
     line-height: normal;
@@ -45,14 +45,14 @@ ul, ol{
     margin-bottom: 8px;
 }
 .contacts-type{
-    color: #161D2A;
+    color: #fff;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
     margin-right: 8px;
 }
 .contacts-link{
-    color: inherit;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -77,7 +77,7 @@ ul, ol{
     margin-bottom: 60px;
 }
 .skills-title{
-    color: #161D2A;
+    color: #fff;
     font-size: 22px;
     font-weight: 700;
     line-height: normal;
@@ -88,7 +88,7 @@ ul, ol{
     padding-left: 16px;
 }
 .skills-list-item{
-    color: #161D2A;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -122,7 +122,7 @@ ul, ol{
 .my-info{
     margin-bottom: 40px;
 }
-/* My projects */
+/* ============================My projects */
 .my-projects-title{
     color: #000;
     font-size: 22px;
@@ -134,14 +134,14 @@ ul, ol{
 .my-project-item{
     color: #000;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 24px;
 }
 .my-project-list{
     padding-left: 16px;
 }
 .my-project-item-link{
-    color: inherit;
+    color: #073899;;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -150,8 +150,7 @@ ul, ol{
 .my-project-item-link:hover{
     color: #005fff;
 }
-.my-project-item-tech{
-    color: #595959;
+.project-technologies{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -159,8 +158,27 @@ ul, ol{
 .my-project-container{
     margin-bottom: 40px;
 }
-
-/* Work experiance */
+.my-project-key-words{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.project-technologies{
+    font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+}
+.project-description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.project-key-features-list{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* =======================Work experiance */
 .work-exp{
     margin-bottom: 40px;
 }
@@ -181,7 +199,7 @@ ul, ol{
     margin-bottom: 12px;
 }
 .company-name{
-    color: #6d9bf5;
+    color: #073899;
 }
 .work-exp-period{
     color: #a8a8a8;
@@ -215,7 +233,9 @@ ul, ol{
     margin-bottom: 8px;
 }
 .education-university{
-    color: #6d9bf5;
+    color: #073899;
+    font-weight: 700;
+    font-size: 16px;
 }
 .education-name{
     color: #595959;
