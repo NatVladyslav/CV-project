@@ -156,6 +156,7 @@ ul, ol{
     line-height: 24px;
 }
 .my-project-container{
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 .my-project-key-words{
